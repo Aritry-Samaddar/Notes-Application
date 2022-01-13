@@ -17,6 +17,17 @@
         android:layout_margin="16dp"
         android:textSize="16sp"/>
 
+    <ImageView
+        android:id="@+id/deleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:onClick="onClickClear"
+        app:layout_constraintTop_toTopOf="@id/input"
+        app:layout_constraintBottom_toBottomOf="@id/input"
+        app:layout_constraintRight_toRightOf="parent"/>
+
     <Button
         android:id="@+id/addButton"
         android:layout_width="match_parent"
